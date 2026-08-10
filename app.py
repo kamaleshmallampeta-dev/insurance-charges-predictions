@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the trained Linear Regression model
-model = joblib.load('/content/best_gradient_boosting_model.pkl')
+model = joblib.load('best_gradient_boosting_model.pkl')
 # Streamlit app
 
 st.title("🏥 Insurance Charges Prediction App")
